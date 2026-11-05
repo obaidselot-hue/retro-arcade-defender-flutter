@@ -1,0 +1,37 @@
+name: retro_arcade_defender
+description: Retro Arcade Defender Game
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.20.0
+  flame_audio: ^1.4.0
+  shared_preferences: ^2.2.2
+  google_sign_in: ^6.2.1
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/main_background.png
+    - assets/images/player.png
+    - assets/images/enemy.png
+    - assets/images/bullet.png
+    - assets/images/explosion.png
+    - assets/images/enemybullet.png
+    - assets/audio/background.mp3
+    - assets/audio/shoot.mp3
+    - assets/audio/explosion.mp3
+    - assets/audio/gameover.mp3
+    - assets/audio/buttonclick.mp3
+    - assets/images/enemy2.png
